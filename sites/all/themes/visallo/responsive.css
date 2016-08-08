@@ -1,0 +1,235 @@
+
+#om-maximenu-main-menu li span.extra { display: none; }
+
+@media screen and (max-width: 1023px) {
+  /*--- All mobile devices ---*/
+  
+	body{
+		width: 100% !important;
+		max-width: 100% !important;
+		margin: 0;
+		overflow-x: hidden !important;
+	}
+
+}
+
+
+@media screen and (min-width: 1000px) {
+	#om-maximenu-main-menu li span.extra { display: inline; }
+}
+
+
+@media screen and (max-width: 1023px) {
+  /*--- iPhone only CSS here ---*/
+  .region-home-3 .block{
+	width: 100%;
+	clear: both;
+	margin: 0 auto;
+	text-align: center;
+  }
+  
+  .minpad{
+	padding: 0;
+	max-width: 90%;
+	margin: 0 auto;
+  }
+
+
+	#home2 .region-home-2 .block, #home4 .region-home-4 .block{
+		width: 100% !important;
+	}
+
+	#block-block-12, #block-block-14{
+		display: none;
+	}
+	
+	#home4 #block-block-15 h2{
+		width: auto;
+	}
+	
+	/* Mobile menu */
+	
+	
+	
+	
+	.region-top-left{
+		/* padding-top: 20px; */
+	}
+	
+	
+	
+	.page-node-6 #header1 {
+		height: 250px;
+	}
+	
+	.page-node-9 #block-webform-client-block-8 .content{
+		max-width: 90%;
+		margin: 0 auto;
+	}
+
+	
+	
+	
+	#footer2 .region{
+		float: none;
+		display: block;
+		margin: 0 auto 30px;
+	}
+	
+	#block-block-6, #block-views-footer-blog-block, .region-footer-2-left{
+		display: block;
+		margin: 0 auto 30px;
+		width: 350px;
+		max-width: 100%;
+	}
+	
+	.region-footer-2-center{
+		width: 350px;
+		max-width: 100%;
+	}
+
+		#footer1 .block .content .want{
+		margin-right: 0;
+		text-align: center;
+		float: none;
+	}
+
+	#footer1 .block .content a{
+		margin-right: auto;
+		float: none;
+		margin-left: auto;
+	}
+	
+}
+
+
+@media screen and (min-width: 900.5px) {
+	#block-om-maximenu-om-maximenu-1{
+		display: block !important;
+	}
+	#om-maximenu-main-menu .leaf-get-support {
+		margin-right: 10px
+	}
+}
+@media screen and (max-width: 900px) {
+	#om-maximenu-main-menu .om-link{
+		margin-left: 0;
+	}
+	
+	#block-om-maximenu-om-maximenu-2{
+		display: none;
+	}
+	#om-maximenu-main-menu .om-maximenu-content{
+		display: none;
+		left: 0 !important;
+		position: relative;
+		top: 0;
+		box-shadow: none;
+	}
+		
+	#block-block-18, #om-maximenu-main-menu .om-link.mobile-only{
+		display: block;
+	}
+	#om-maximenu-main-menu .om-maximenu-middle-right{
+		background-color: #404041;
+	}
+	
+	#om-maximenu-main-menu.om-maximenu-block.om-maximenu-row ul.om-menu li.om-leaf{
+		background-color: #404041;
+		width: 100%;
+	}
+	
+	#om-maximenu-main-menu li.om-leaf .om-link{
+		padding: 5px 0;
+		background: none !important
+	}
+	
+	#om-maximenu-main-menu ul.om-menu{
+		height: auto;
+	}
+	
+	#block-om-maximenu-om-maximenu-1{
+		width: 100%;
+		background-color: #404041;
+		border-bottom: 2px solid #ccc;
+		float: none;
+		display: none;
+		position: absolute;
+		left: 0;
+		top: 100px;
+		text-align: center;
+		padding: 10px 0 15px;
+		z-index: 999;
+		color: #fff !important;
+		margin-top: 0;
+	}
+	
+	#om-maximenu-main-menu .om-maximenu-content ul li.leaf a{
+		margin: 0 auto;
+		display: block;
+		text-align: center;
+	}
+	
+	#om-maximenu-main-menu.om-maximenu-block.om-maximenu-row ul.om-menu li.om-leaf,
+	#om-maximenu-main-menu.om-maximenu-block.om-maximenu-row ul.om-menu li.om-leaf .om-link,
+	#om-maximenu-main-menu.om-maximenu-block ul.om-menu,
+	#om-maximenu-main-menu .om-maximenu-content ul li.leaf a{
+		float: none;
+	}
+	
+	#om-maximenu-main-menu li.om-leaf .om-link,
+	#om-maximenu-main-menu ul.om-menu li.om-leaf{
+		height: auto;
+	}
+	
+	#om-maximenu-main-menu .om-maximenu-content ul li.leaf a{
+		background: none !important;
+		color: inherit !important;
+	}
+	#om-maximenu-main-menu #om-leaf-om-u1-794790702-7 .om-link{
+		display: inline-block;
+		top: 3px;
+		margin-bottom: 5px;
+	}
+}
+
+
+@media screen and (max-width: 728px) {
+
+	#header1{
+		height: 150px;
+		margin-bottom: 0;
+	}
+
+	
+	.region-home-1{
+		top: 0;
+	}
+
+	#homeheader1{
+		height: auto;
+		padding-bottom: 60px;
+	}
+	
+	.region-home-1 h1{
+		font-size: 40px;
+	}
+	
+}
+
+@media screen and (max-width: 467px) {
+	
+	#block-block-2 img{
+		max-width: 100%;
+		height: auto !important;
+	}
+	
+	.region-top-left{
+		width: 70%;
+	}
+	
+	#block-webform-client-block-3 .content .form-text{
+		max-width: 100%;
+	}
+	
+}

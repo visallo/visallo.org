@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /forms
+Disallow: /css
+Disallow: /scripts
+Disallow: /misc
+Disallow: /sites
+Disallow: /modules
+

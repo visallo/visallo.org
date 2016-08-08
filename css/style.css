@@ -1,0 +1,126 @@
+
+.home-features {
+  overflow: auto;
+}
+.home-features .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.home-features .content .home-box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0.25em;
+  padding-bottom: 2em;
+	text-align: center;
+}
+.home-features .content .home-box img {
+  -webkit-transition: -webkit-transform ease-out 0.3s;
+          transition: transform ease-out 0.3s;
+  -webkit-transform: scale(1.0);
+          transform: scale(1.0);
+}
+.home-features .content .home-box:hover img {
+  -webkit-transform: scale(1.05) translate(0, 2px);
+          transform: scale(1.05) translate(0, 2px);
+  -webkit-transition: -webkit-transform cubic-bezier(0.12, 1.31, 0.51, 1.68) 0.4s;
+          transition: transform cubic-bezier(0.12, 1.31, 0.51, 1.68) 0.4s;
+}
+
+.home-box h3 {
+  margin: 0 0 1.2em;
+	font-weight: normal;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+.home-box p {
+  font-size: 90%;
+  margin: 0;
+}
+
+#home-box-1 {
+	margin-left: 0;
+	border-bottom: 8px solid #eb2027;
+}
+#home-box-2 {
+	border-bottom: 8px solid #0c93c8;
+}
+#home-box-3 {
+	margin-right: 0;
+	border-bottom: 8px solid #ff8705;
+}
+
+.box-img {
+	height: 137px;
+}
+
+@media screen and (max-width: 600px) {
+  /*--- All mobile devices ---*/
+  .home-features .content {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .home-features .content .home-box {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 100%;
+            flex: 1 0 100%;
+    margin-top: 2em;
+  }
+  .home-features .content .home-box:first-child {
+    margin-top: 0;
+  }
+  .home-features .content .home-box p {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+
+.product-versions .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 40em;
+  margin: 0 auto;
+}
+.product-versions .content .version {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+   margin: 2em 0.25em;
+}
+.product-versions .content .version p {
+	max-width: 15em;
+	margin: 0 auto;
+}
+.product-versions h3 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 39px;
+  margin-bottom: 17px;
+  font-weight: normal;
+}
+.product-versions .content .version .box-img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 1em 0;
+}
+.product-versions table {
+  max-width: 100%;
+  margin: 0 auto 3em;
+}
+
+.product-versions table tr:hover td {
+	background-color: #eee;
+}
+
+.product-versions table tr th:nth-child(n+2),
+.product-versions table tr td:nth-child(n+2) {
+	text-align: center;
+}

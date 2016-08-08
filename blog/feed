@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://www.visallo.com"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>Visallo</title>
+ <link>https://www.visallo.com</link>
+ <description></description>
+ <language>en</language>
+
+<item>
+  <title>Visallo 2.0 Released</title>
+  <link>https://www.visallo.com/blog/visallo-2.0</link>
+  <description>&lt;p&gt;We are very pleased to announce Visallo 2.0. This release includes bugs fixes and new features in our open source project as well as commercial offerings. To find out more information about our commercial offerings and Visallo’s features, please contact us via our &lt;a href=&quot;http://www.visallo.com/content/contact&quot;&gt;website&lt;/a&gt; or our public &lt;a href=&quot;https://visallo-public-slack.herokuapp.com&quot;&gt;Visallo Slack&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;new-open-source-back-end-features&quot;&gt;New Open Source Back End Features&lt;/h2&gt;
+&lt;h3 id=&quot;sql-back-end-with-fine-grain-access-control&quot;&gt;SQL Back End with Fine Grain Access Control&lt;/h3&gt;
+&lt;p&gt;In Visallo 2.0, we’ve incorporated fine grain access control into SQL so that you can lock down your data to the attribute level.&lt;/p&gt;
+&lt;h3 id=&quot;performance-improvements-for-the-graph-property-workers&quot;&gt;Performance Improvements for the Graph Property Workers&lt;/h3&gt;
+&lt;p&gt;We’ve optimized the performance of Graph Property Workers with Visallo 2.0&amp;nbsp;which will allow quicker response time for live analysis of your data.&lt;/p&gt;
+&lt;h2 id=&quot;new-open-source-ui-features&quot;&gt;New Open Source UI Features&lt;/h2&gt;
+&lt;h3 id=&quot;dashboard&quot;&gt;Dashboard&lt;/h3&gt;
+&lt;p&gt;The Dashboard gives a user an overview of the data in the system by default. It is customizable per user as well as system wide.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Visallo Dashboard Screenshot&quot; src=&quot;dashboard.png&quot; style=&quot;max-width: 100%&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;graph-decorations&quot;&gt;Graph Decorations&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;http://docs.visallo.org/extension-points/front-end/graphDecorations/&quot;&gt;Graph Decorations&lt;/a&gt; allows you to style vertices with badges that can give you more insight into your data.&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;img alt=&quot;Graph Decorations Screenshot&quot; src=&quot;graph_decoration.png&quot; style=&quot;width: 300px; max-width: 100%;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;saved-search&quot;&gt;Saved Search&lt;/h3&gt;
+&lt;p&gt;Saved Search gives users an easy way for you to reuse your searches and allows you to share your search criteria globally.&lt;/p&gt;
+&lt;p&gt;These saved searches can then be used on the Dashboard to create custom visualizations with the result subset of the search.&lt;/p&gt;
+&lt;div style=&quot;text-align: center;&quot;&gt;
+&lt;img alt=&quot;Saved Searches Screenshot&quot; src=&quot;saved_search.png&quot; style=&quot;max-height: 350px;max-width: 100%;&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;timeline&quot;&gt;Timeline&lt;/h3&gt;
+&lt;p&gt;Displays a temporal view of the data on the workspace.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Timeline Screenshot&quot; src=&quot;timeline.png&quot; style=&quot;max-width: 100%&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;transition-to-react&quot;&gt;Transition to React&lt;/h3&gt;
+&lt;p&gt;Visallo is moving to &lt;a href=&quot;https://facebook.github.io/react/&quot;&gt;React&lt;/a&gt;! We will start to transition legacy UI code as well as build all new components in React.&lt;/p&gt;
+&lt;h3 id=&quot;front-end-extension-points&quot;&gt;Front End Extension Points&lt;/h3&gt;
+&lt;p&gt;In Visallo 2.0, we’ve added a lot of different extension points to our UI. You can find the list of front end extension points in our &lt;a href=&quot;http://docs.visallo.org/extension-points/front-end/&quot;&gt;documentation&lt;/a&gt;.&lt;/p&gt;
+</description>
+  
+  
+</item>
+
+<item>
+  <title>Processing Big Data: Here is How We Do It</title>
+  <link>https://www.visallo.com/blog/processing-big-data-heres-how-we-do-it</link>
+  <description>&lt;p&gt;It’s no secret that Big Data plays a major role in modern problem-solving across many industries. Processing Big Data into a way that can be easily analyzed can be used in a number of different ways to gain insights on fraud, cybersecurity, and more.  Today’s most successful organizations are placing a great deal of focus on learning what to do with their data. The problem, however, is that understanding how to process Big Data so as to end up with tangible results can be easier said than done.&lt;/p&gt;
+&lt;p&gt;At Visallo, we take Big Data seriously and have developed a streamlined approach to processing it for all of our clients – here’s how we do it.&lt;/p&gt;
+&lt;h2 id=&quot;finding-valuable-insights-in-big-data&quot;&gt;Finding Valuable Insights in Big Data&lt;/h2&gt;
+&lt;p&gt;It takes a human perspective to thoroughly analyze Big Data for actionable insights, but making sense of large data sets without the help of some form of automation can be a true challenge. This is where the Visallo Platform comes in, and the way it works is simple: our customers come to us with a problem.  The problems range from a lack of efficiency to an inability to process a wealth of information. We can use this information to develop a solution that solves the issue via findings gleaned from Big Data.&lt;/p&gt;
+&lt;p&gt;The Visallo Platform allows you to find information from documents, images, audio, videos and other types of data that may have otherwise been buried. It exposes relationships that you may not have realized even existed, promotes enhanced collaborative work between employees, and adapts to the set of problems that your organization currently faces. Perhaps most importantly, the platform keeps your data secure and out of reach of hackers and cyber-criminals.&lt;/p&gt;
+&lt;h2 id=&quot;overwhelmed-we-can-help&quot;&gt;Overwhelmed? We Can Help&lt;/h2&gt;
+&lt;p&gt;We know that understanding and processing Big Data can cause nothing but headaches for many people, which is why we’ve created the most effective platform available for handling digital information. Big Data shouldn’t be scary, and learning how to process it can lead to significant findings.&lt;/p&gt;
+&lt;p&gt;It’s time to see what Big Data can do for your organization. For more information, &lt;a href=&quot;/content/contact&quot;&gt;contact Visallo&lt;/a&gt; today. &lt;/p&gt;
+</description>
+  
+  
+</item>
+
+<item>
+  <title>What Can Your Company Do with Visallo Data Insights?</title>
+  <link>https://www.visallo.com/blog/what-can-your-company-do-visallo-data-insights</link>
+  <description>&lt;p&gt;We know that it takes human reasoning to thoroughly evaluate data and put it to work, but we also understand that it can be overwhelming and impractical to work with and make sense of large data sets. That’s why we developed Visallo. Our solutions make it easier for real people to &lt;a href=&quot;https://www.visallo.com/content/visallo-platform&quot;&gt;find actionable insights&lt;/a&gt; within big data.&lt;/p&gt;
+&lt;h2 id=&quot;here-are-several-ways-our-team-and-our-products-can-help-your-company-solve-your-data-woes-&quot;&gt;Here are several ways our team and our products can help your company solve your data woes.&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Figure out what your unique needs are.&lt;/strong&gt; In many cases, our customers come to us knowing that they have a problem. There’s a lack of efficiency, an inability to process such a large volume of information, or a need to speed up the process to make faster decisions (a common problem for businesses and government agencies alike). The Visallo team can help you determine exactly what sort of solution will solve that problem.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Stop playing hide and seek with your data.&lt;/strong&gt; Our solutions don’t just make sense of text data. They work with images, photos, audio files, videos, and other non-text components to create a full picture from your big data files.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Collaborate in real-time.&lt;/strong&gt; Visallo is made for large enterprises and organizations. We know that there are multiple people working on your projects – and working with your data. That’s why we make collaboration as easy as possible, allowing multiple users to edit and interact with your information with live updates that all parties can see.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Expose insights and opportunities.&lt;/strong&gt; Our graph visualization technology helps make connections between data entities, predict and experiment with your data, and draw out important facts that are easily missed or ignored by the human eye. We go beyond organization to create real insights from your source documents.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Develop custom solutions.&lt;/strong&gt; We don’t sell one-size-fits-all software. Visallo is built for complete customization so that we can tackle your data challenges in the most meaningful ways. Our fully-integrated solutions work with your existing platforms to answer questions and solve problems specific to your organization.&lt;/p&gt;
+&lt;p&gt;See more, know more, and do more. Whether you need to increase efficiency (who doesn’t?), discover connections, or collaborate over big data in a user-friendly environment, we can help.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.visallo.com/content/contact&quot;&gt;Request a demo today&lt;/a&gt;&lt;/a&gt; to get a feel for our big data capabilities. We can’t wait to show you what we can do!&lt;/p&gt;
+</description>
+  
+  
+</item>
+
+<item>
+  <title>Webinar: Discover Hidden Relationships through the Power of Link Analysis feat. the Six Degrees of Kevin Bacon</title>
+  <link>https://www.visallo.com/blog/webinar-discover-hidden-relationships-through-power-link-analysis-feat-six-degrees-kevin-bacon</link>
+  <description>&lt;p&gt;You may be asking: What sort of hidden relationships are in my data? How can I put those relationships into actionable use for myself or my organization? How can I &lt;em&gt;always&lt;/em&gt; win at the “Six Degrees of Kevin Bacon game?”&lt;/p&gt;
+&lt;p&gt;Join us for our next webinar on May 26, 2016 1PM ET/10AM PT to explore how you can use Visallo to answer all of these questions and many more.&lt;/p&gt;
+&lt;h2 id=&quot;we-will-be-discussing-&quot;&gt;We will be discussing:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;What is Link Analysis?&lt;/li&gt;
+&lt;li&gt;How does link analysis help my particular organization?&lt;/li&gt;
+&lt;li&gt;How can I connect different datasets together to do link analysis?&lt;/li&gt;
+&lt;li&gt;How does Visallo win the “Six Degrees of Kevin Bacon” game?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We look forward to seeing you there!&lt;/p&gt;
+</description>
+  
+  
+</item>
+
+<item>
+  <title>Visallo at GEOINT Booth 717</title>
+  <link>https://www.visallo.com/blog/geoint</link>
+  <description>&lt;p&gt;Hosted and produced by the United States Geospatial Intelligence Foundation (USGIF), a non-profit, non-lobbying educational organization, the annual GEOINT Symposium is the nation’s largest gathering of industry, academia, and government to include Defense, Intelligence and Homeland Security Communities as well as commercial, Fed/Civil, State and Local geospatial intelligence stakeholders.&lt;/p&gt;
+&lt;p&gt;As a product originally designed to assist investigators, attendance at GEOINT is a natural fit for Visallo. Visallo’s intuitive web-based interface can help intelligence analysts discover connections and explore relationships within data using a suite of analytic tools, including graph visualizations, full-text document and multimedia search, dynamic data histograms, interactive geographic maps, dynamic timelines, and collaborative workspaces shared in real-time. All of this is done with the fine-grained access control model flexible enough to meet the Intelligence Community’s most demanding requirements.&lt;/p&gt;
+&lt;p&gt;Please visit us at booth #717.&lt;/p&gt;
+</description>
+  
+  
+</item>
+
+<item>
+  <title>How data is processed by Visallo (Infographic)</title>
+  <link>https://www.visallo.com/blog/how-data-processed-visallo-infographic</link>
+  <description>&lt;p&gt;&lt;a href=&#39;visallo-data-flow-infographic.jpg&#39;&gt;&lt;img alt=&quot;Visallo Data Ingestion Infographic&quot; src=&quot;visallo-data-flow-infographic.jpg&quot; style=&quot;max-width: 100%&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Visallo is made to give you more insight into your data. By taking advantage of it’s powerful data flow, Visallo can do things like &lt;a href=&quot;/content/financial-fraud&quot;&gt;discover financial fraud&lt;/a&gt; and &lt;a href=&quot;/content/recruiting&quot;&gt;find the most qualified candidates to hire&lt;/a&gt; for your business. If you are interested in buying support for &lt;a href=&quot;/content/visallo-enterprise-support&quot;&gt;Visallo&lt;/a&gt;, or chatting about data flows feel free to email me at &lt;a href=&quot;mailto:ryan@v5analytics.com&quot;&gt;ryan@v5analytics.com&lt;/a&gt;. &lt;/p&gt;
+</description>
+  
+  
+</item>
+
+<item>
+  <title>Webinar: Exposing Insider Threats with Visallo</title>
+  <link>https://www.visallo.com/blog/webinar-exposing-insider-threats</link>
+  <description>&lt;p&gt;It is possible to lock down your sensitive data to outside threats, but what if the real threat is coming from inside of your own organization?  Visallo can be used to sniff out and detect when someone inside of your information is trying to access data that they shouldn’t, or is trying to circumvent your security.  &lt;/p&gt;
+&lt;p&gt;Join us for our webinar on April 26, 2016 at 1PM ET/10AM PT to see how Visallo uses graph network analysis to detect, isolate, and identify threats that may be hidden inside of your own organization.&lt;/p&gt;
+&lt;p&gt;We will be covering:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;How to use Visallo to detect threats&lt;/li&gt;
+&lt;li&gt;The way to understand the types of attacks on your system&lt;/li&gt;
+&lt;li&gt;How to identify the culprits behind data loss&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;By using Visallo, you have the power to keep your data out of the hands of people who are not supposed to have it.&lt;/p&gt;
+</description>
+  
+  
+</item>
+
+<item>
+  <title>Vertexium Security Model With Code Examples</title>
+  <link>https://www.visallo.com/blog/vertexium-security-model-code-examples</link>
+  <description>&lt;p&gt;&lt;em&gt;Note: The code for these examples is available at &lt;a href=&quot;https://github.com/rygim/vertexium-security-examples.git&quot;&gt;github&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;At &lt;a href=&quot;http://v5analytics.com&quot;&gt;work&lt;/a&gt;, I use &lt;a href=&quot;http://github.com/v5analytics/vertexium&quot;&gt;Vertexium&lt;/a&gt; day-to-day.  Not only is it a graph database that can scale well to large sizes of data, but it has cell-level and element-level security which is useful in situations where certain people are not allowed to see certain parts of the the graph.&lt;br&gt;Let’s say that you are developing an application for a call center and when a customer calls in, their personal information will appear in front of whoever answered.  Due to some reason, regular call center employees who answer the phones are not allowed to see all of the information about a person, but their manager is.  Since Vertexium is a graph database, the data will probably be stored in a vertex like this:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;VertexId&lt;/strong&gt; = &lt;code&gt;PersonVertex&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Property&lt;/th&gt;
+&lt;th&gt;Value&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;FirstName&lt;/td&gt;
+&lt;td&gt;John&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;LastName&lt;/td&gt;
+&lt;td&gt;Johnson&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SSN&lt;/td&gt;
+&lt;td&gt;123-45-6789&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;In order to store and retrieve that data, you can use the following code for Vertexium (look at the repository if you want to run the code yourself):&lt;/p&gt;
+&lt;h2 id=&quot;storing-vertices-and-properties&quot;&gt;Storing Vertices and Properties&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Example in the &lt;a href=&quot;https://github.com/rygim/vertexium-security-examples&quot;&gt;Example Repository&lt;/a&gt; in &lt;a href=&quot;https://github.com/rygim/vertexium-security-examples/tree/master/src/main/java/com/rgimmy/vertexiumsecurityexamples/Example1.java&quot;&gt;src/main/java/com/rgimmy/vertexiumsecurityexamples/Example1.java&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;Map&lt;String, Object&gt; config = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; HashMap&lt;&gt;();
+InMemoryGraphConfiguration configuration = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; InMemoryGraphConfiguration(config);
+InMemoryGraph inMemoryGraph = InMemoryGraph.create(configuration);
+Authorizations authorizations = inMemoryGraph.createAuthorizations();
+Visibility visibility = Visibility.EMPTY;
+
+&lt;span class=&quot;hljs-comment&quot;&gt;//create vertex&lt;/span&gt;
+Vertex vertex = inMemoryGraph.addVertex(&lt;span class=&quot;hljs-string&quot;&gt;&quot;PersonVertex&quot;&lt;/span&gt;, visibility, authorizations);
+vertex.setProperty(&lt;span class=&quot;hljs-string&quot;&gt;&quot;FirstName&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;John&quot;&lt;/span&gt;, visibility, authorizations);
+vertex.setProperty(&lt;span class=&quot;hljs-string&quot;&gt;&quot;LastName&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Johnson&quot;&lt;/span&gt;, visibility, authorizations);
+vertex.setProperty(&lt;span class=&quot;hljs-string&quot;&gt;&quot;SSN&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;123-45-6789&quot;&lt;/span&gt;, visibility, authorizations);
+inMemoryGraph.flush();&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&quot;reading-vertices-and-properties&quot;&gt;Reading Vertices and Properties&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;//read vertex&lt;/span&gt;
+Vertex readVertex = inMemoryGraph.getVertex(&lt;span class=&quot;hljs-string&quot;&gt;&quot;PersonVertex&quot;&lt;/span&gt;, authorizations);
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;ID: &quot;&lt;/span&gt; + readVertex.getId());
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;FirstName: &quot;&lt;/span&gt; + readVertex.getPropertyValue(&lt;span class=&quot;hljs-string&quot;&gt;&quot;FirstName&quot;&lt;/span&gt;));
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;LastName: &quot;&lt;/span&gt; + readVertex.getPropertyValue(&lt;span class=&quot;hljs-string&quot;&gt;&quot;LastName&quot;&lt;/span&gt;));
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;SSN: &quot;&lt;/span&gt; + readVertex.getPropertyValue(&lt;span class=&quot;hljs-string&quot;&gt;&quot;SSN&quot;&lt;/span&gt;));&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;output-&quot;&gt;Output:&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;&lt;span class=&quot;hljs-attribute&quot;&gt;ID&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;PersonVertex &lt;/span&gt;
+&lt;span class=&quot;hljs-attribute&quot;&gt;FirstName&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;John&lt;/span&gt;
+&lt;span class=&quot;hljs-attribute&quot;&gt;LastName&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;Johnson&lt;/span&gt;
+&lt;span class=&quot;hljs-attribute&quot;&gt;SSN&lt;/span&gt;: &lt;span class=&quot;hljs-string&quot;&gt;123-45-6789&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We expect to get all of the data back since since we haven’t used any special authorizations and/or visibilities. &lt;/p&gt;
+&lt;h2 id=&quot;authorizations-and-visibilities&quot;&gt;Authorizations and Visibilities&lt;/h2&gt;
+&lt;p&gt;Now, you may have noticed that there is both Authorizations and Visibility in those code snippets.  What is the difference between the two?  The short answer right now is that you use visibilities while writing data while you use authorizations while reading data.  The API calls that we use here require both since it does a little bit of both, but if you use more advanced parts of the Vertexium API, you can use them individually and will need to know what they do.&lt;/p&gt;
+&lt;p&gt;Now, back to our original problem, you want to develop a way for managers to see more data than the regular people in the call center.  In order to do that, we must tag the restricted data with a visibility so that it will not be visible to people without the authorization to see that data.  To do that, we will modify the previous example with the following:&lt;/p&gt;
+&lt;h3 id=&quot;store-with-different-authorizations&quot;&gt;Store with different authorizations&lt;/h3&gt;
+&lt;p&gt;Example in the &lt;a href=&quot;https://github.com/rygim/vertexium-security-examples&quot;&gt;Example Repository&lt;/a&gt; in &lt;a href=&quot;https://github.com/rygim/vertexium-security-examples/tree/master/src/main/java/com/rgimmy/vertexiumsecurityexamples/Example2.java&quot;&gt;src/main/java/com/rgimmy/vertexiumsecurityexamples/Example2.java&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;Map&lt;&lt;span class=&quot;hljs-keyword&quot;&gt;String&lt;/span&gt;, &lt;span class=&quot;hljs-keyword&quot;&gt;Object&lt;/span&gt;&gt; config = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;hljs-keyword&quot;&gt;HashMap&lt;/span&gt;&lt;&gt;();
+InMemoryGraphConfiguration configuration = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; InMemoryGraphConfiguration(config);
+InMemoryGraph inMemoryGraph = InMemoryGraph.create(configuration);
+
+&lt;span class=&quot;hljs-keyword&quot;&gt;String&lt;/span&gt; securityTag = &lt;span class=&quot;hljs-string&quot;&gt;&quot;manager&quot;&lt;/span&gt;;
+Authorizations noAuthorizations = inMemoryGraph.createAuthorizations();
+Authorizations higherLevelAuthorizations = inMemoryGraph.createAuthorizations(securityTag);
+Visibility visibility = Visibility.EMPTY;
+Visibility highLevelVisibility = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; Visibility(securityTag);
+
+&lt;span class=&quot;hljs-comment&quot;&gt;//create vertex&lt;/span&gt;
+Vertex &lt;span class=&quot;hljs-built_in&quot;&gt;vertex&lt;/span&gt; = inMemoryGraph.addVertex(&lt;span class=&quot;hljs-string&quot;&gt;&quot;PersonVertex&quot;&lt;/span&gt;, visibility, higherLevelAuthorizations);
+&lt;span class=&quot;hljs-built_in&quot;&gt;vertex&lt;/span&gt;.setProperty(&lt;span class=&quot;hljs-string&quot;&gt;&quot;FirstName&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;John&quot;&lt;/span&gt;, visibility, noAuthorizations);
+&lt;span class=&quot;hljs-built_in&quot;&gt;vertex&lt;/span&gt;.setProperty(&lt;span class=&quot;hljs-string&quot;&gt;&quot;LastName&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;Johnson&quot;&lt;/span&gt;, visibility, noAuthorizations);
+&lt;span class=&quot;hljs-built_in&quot;&gt;vertex&lt;/span&gt;.setProperty(&lt;span class=&quot;hljs-string&quot;&gt;&quot;SSN&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;123-45-6789&quot;&lt;/span&gt;, highLevelVisibility, higherLevelAuthorizations);
+inMemoryGraph.flush();&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;retrieve-with-different-authorizations&quot;&gt;Retrieve with different authorizations&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;//&lt;span class=&quot;hljs-built_in&quot;&gt;read&lt;/span&gt; vertex as no authorization user
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;=====reading vertex as regular user======&quot;&lt;/span&gt;);
+Vertex &lt;span class=&quot;hljs-built_in&quot;&gt;read&lt;/span&gt;Vertex = &lt;span class=&quot;hljs-keyword&quot;&gt;in&lt;/span&gt;MemoryGraph.getVertex(&lt;span class=&quot;hljs-string&quot;&gt;&quot;PersonVertex&quot;&lt;/span&gt;, noAuthorizations);
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;ID: &quot;&lt;/span&gt; + &lt;span class=&quot;hljs-built_in&quot;&gt;read&lt;/span&gt;Vertex.getId());
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;FirstName: &quot;&lt;/span&gt; + &lt;span class=&quot;hljs-built_in&quot;&gt;read&lt;/span&gt;Vertex.getPropertyValue(&lt;span class=&quot;hljs-string&quot;&gt;&quot;FirstName&quot;&lt;/span&gt;));
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;LastName: &quot;&lt;/span&gt; + &lt;span class=&quot;hljs-built_in&quot;&gt;read&lt;/span&gt;Vertex.getPropertyValue(&lt;span class=&quot;hljs-string&quot;&gt;&quot;LastName&quot;&lt;/span&gt;));
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;SSN: &quot;&lt;/span&gt; + &lt;span class=&quot;hljs-built_in&quot;&gt;read&lt;/span&gt;Vertex.getPropertyValue(&lt;span class=&quot;hljs-string&quot;&gt;&quot;SSN&quot;&lt;/span&gt;)); // this will be null
+
+//&lt;span class=&quot;hljs-built_in&quot;&gt;read&lt;/span&gt; vertex as elevated user
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;=====reading vertex as elevated user======&quot;&lt;/span&gt;);
+&lt;span class=&quot;hljs-built_in&quot;&gt;read&lt;/span&gt;Vertex = &lt;span class=&quot;hljs-keyword&quot;&gt;in&lt;/span&gt;MemoryGraph.getVertex(&lt;span class=&quot;hljs-string&quot;&gt;&quot;PersonVertex&quot;&lt;/span&gt;, higherLevelAuthorizations);
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;ID: &quot;&lt;/span&gt; + &lt;span class=&quot;hljs-built_in&quot;&gt;read&lt;/span&gt;Vertex.getId());
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;FirstName: &quot;&lt;/span&gt; + &lt;span class=&quot;hljs-built_in&quot;&gt;read&lt;/span&gt;Vertex.getPropertyValue(&lt;span class=&quot;hljs-string&quot;&gt;&quot;FirstName&quot;&lt;/span&gt;));
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;LastName: &quot;&lt;/span&gt; + &lt;span class=&quot;hljs-built_in&quot;&gt;read&lt;/span&gt;Vertex.getPropertyValue(&lt;span class=&quot;hljs-string&quot;&gt;&quot;LastName&quot;&lt;/span&gt;));
+System.out.println(&lt;span class=&quot;hljs-string&quot;&gt;&quot;SSN: &quot;&lt;/span&gt; + &lt;span class=&quot;hljs-built_in&quot;&gt;read&lt;/span&gt;Vertex.getPropertyValue(&lt;span class=&quot;hljs-string&quot;&gt;&quot;SSN&quot;&lt;/span&gt;));&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;output&quot;&gt;Output&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;=====reading vertex &lt;span class=&quot;hljs-keyword&quot;&gt;as&lt;/span&gt; regular user======
+&lt;span class=&quot;hljs-string&quot;&gt;ID:&lt;/span&gt; PersonVertex
+&lt;span class=&quot;hljs-string&quot;&gt;FirstName:&lt;/span&gt; John
+&lt;span class=&quot;hljs-string&quot;&gt;LastName:&lt;/span&gt; Johnson
+&lt;span class=&quot;hljs-string&quot;&gt;SSN:&lt;/span&gt; &lt;span class=&quot;hljs-literal&quot;&gt;null&lt;/span&gt;
+=====reading vertex &lt;span class=&quot;hljs-keyword&quot;&gt;as&lt;/span&gt; elevated user======
+&lt;span class=&quot;hljs-string&quot;&gt;ID:&lt;/span&gt; PersonVertex
+&lt;span class=&quot;hljs-string&quot;&gt;FirstName:&lt;/span&gt; John
+&lt;span class=&quot;hljs-string&quot;&gt;LastName:&lt;/span&gt; Johnson
+&lt;span class=&quot;hljs-string&quot;&gt;SSN:&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;123&lt;/span&gt;-&lt;span class=&quot;hljs-number&quot;&gt;45&lt;/span&gt;-&lt;span class=&quot;hljs-number&quot;&gt;6789&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;So you can see that if you are not correctly authorized, you can’t see the properties.  In this example, when we tried to pull back the SSN property, there was no value at all that came back.  When we refer to cell-level security, the cells are represented as properties in the vertex.  This extends to properties on both edges and vertices, but the whole concept applies to vertex and edges themselves through the concept of vertex-level security.  Going back to our example if the call center worker tries to pull up data that they don’t have access to, or shouldn’t even know about (maybe you have a celebrity as a person in your database and your corporate policy doesn’t allow regular workers to see that they are in the system.)  For example, if you don’t have the correct authorizations, you will be unable to pull back a vertex you don’t have access to in the following code:&lt;/p&gt;
+&lt;h3 id=&quot;store-different-authorizations-on-vertices&quot;&gt;Store different authorizations on vertices&lt;/h3&gt;
+&lt;p&gt;Example in the &lt;a href=&quot;https://github.com/rygim/vertexium-security-examples&quot;&gt;Example Repository&lt;/a&gt; in &lt;a href=&quot;https://github.com/rygim/vertexium-security-examples/tree/master/src/main/java/com/rgimmy/vertexiumsecurityexamples/Example3.java&quot;&gt;src/main/java/com/rgimmy/vertexiumsecurityexamples/Example3.java&lt;/a&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;&lt;span class=&quot;hljs-constant&quot;&gt;Map&lt;String, Object&gt; config&lt;/span&gt; = new HashMap&lt;&gt;();
+&lt;span class=&quot;hljs-constant&quot;&gt;InMemoryGraphConfiguration configuration&lt;/span&gt; = new InMemoryGraphConfiguration(config);
+&lt;span class=&quot;hljs-constant&quot;&gt;InMemoryGraph inMemoryGraph&lt;/span&gt; = InMemoryGraph.create(configuration);
+&lt;span class=&quot;hljs-constant&quot;&gt;
+String securityTag&lt;/span&gt; = &lt;span class=&quot;hljs-string&quot;&gt;&quot;manager&quot;&lt;/span&gt;;
+&lt;span class=&quot;hljs-constant&quot;&gt;Authorizations noAuthorizations&lt;/span&gt; = inMemoryGraph.createAuthorizations();
+&lt;span class=&quot;hljs-constant&quot;&gt;Authorizations higherLevelAuthorizations&lt;/span&gt; = inMemoryGraph.createAuthorizations(securityTag);
+&lt;span class=&quot;hljs-constant&quot;&gt;Visibility visibility&lt;/span&gt; = Visibility.EMPTY;
+&lt;span class=&quot;hljs-constant&quot;&gt;Visibility highLevelVisibility&lt;/span&gt; = new Visibility(securityTag);
+
+&lt;span class=&quot;hljs-comment&quot;&gt;//create vertex&lt;/span&gt;
+inMemoryGraph.addVertex(&lt;span class=&quot;hljs-string&quot;&gt;&quot;PersonVertex1&quot;&lt;/span&gt;, visibility, noAuthorizations);
+inMemoryGraph.addVertex(&lt;span class=&quot;hljs-string&quot;&gt;&quot;PersonVertex2&quot;&lt;/span&gt;, highLevelVisibility, higherLevelAuthorizations);
+inMemoryGraph.flush();&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&quot;retrieve-vertices-with-different-authorizations&quot;&gt;Retrieve vertices with different authorizations&lt;/h3&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;System.out.&lt;span class=&quot;hljs-built_in&quot;&gt;println&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&quot;=====reading all vertices as regular user======&quot;&lt;/span&gt;);
+Iterable&lt;Vertex&gt; vertices = inMemoryGraph.getVertices(noAuthorizations);
+&lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt;(Vertex &lt;span class=&quot;hljs-built_in&quot;&gt;vertex&lt;/span&gt; : vertices){
+    System.out.&lt;span class=&quot;hljs-built_in&quot;&gt;println&lt;/span&gt;(&lt;span class=&quot;hljs-built_in&quot;&gt;vertex&lt;/span&gt;.getId());
+}
+
+System.out.&lt;span class=&quot;hljs-built_in&quot;&gt;println&lt;/span&gt;(&lt;span class=&quot;hljs-string&quot;&gt;&quot;=====reading all vertices as elevated user======&quot;&lt;/span&gt;);
+vertices = inMemoryGraph.getVertices(higherLevelAuthorizations);
+&lt;span class=&quot;hljs-keyword&quot;&gt;for&lt;/span&gt;(Vertex &lt;span class=&quot;hljs-built_in&quot;&gt;vertex&lt;/span&gt; : vertices){
+    System.out.&lt;span class=&quot;hljs-built_in&quot;&gt;println&lt;/span&gt;(&lt;span class=&quot;hljs-built_in&quot;&gt;vertex&lt;/span&gt;.getId());
+}&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;output&quot;&gt;Output&lt;/h4&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;=&lt;span class=&quot;ruby&quot;&gt;====reading all vertices as regular user======
+&lt;/span&gt;PersonVertex1
+=&lt;span class=&quot;ruby&quot;&gt;====reading all vertices as elevated user======
+&lt;/span&gt;PersonVertex1
+PersonVertex2&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you don’t have the security tag (also called Authorizations in the vertexium world) you are unable to retrieve the properties with those tags.  This is pretty powerful for a couple of reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Security is stored alongside the data so your app doesn’t have to deal with complicated&lt;/li&gt;
+&lt;li&gt;It is relatively easy from an administrative perspective to add/remove security tags from individual users&lt;/li&gt;
+&lt;li&gt;It is more difficult to leak data to unprivileged people&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;1-security-alongside-the-data&quot;&gt;1. Security alongside the data&lt;/h2&gt;
+&lt;p&gt;We have probably all developed on platforms that, if you have access to the database, you have the full reign of all of the data.  There are plenty of ways to mitigate that threat, but Vertexium typically uses an &lt;a href=&quot;https://accumulo.apache.org&quot;&gt;Accumulo&lt;/a&gt; so we can go a step further and make sure that each user needs the correct authorizations as well as the correct credentials to go a step further and ensure that no one can see anything that they are not authorized to see&lt;/p&gt;
+&lt;h2 id=&quot;2-easy-administration&quot;&gt;2. Easy administration&lt;/h2&gt;
+&lt;p&gt;Is your user getting promoted to another position in which they need more access to the data?  Simply add the correct authorizations and you will get all of the new data by default in your application.  No muss, no fuss, except for adding the authorizations to your users of course.&lt;/p&gt;
+&lt;h2 id=&quot;3-no-data-leaks&quot;&gt;3. No data leaks&lt;/h2&gt;
+&lt;p&gt;If your user doesn’t have the correct authorizations, the data isn’t even brought back from Accumulo.  That means that there isn’t any filtering that needs to be done client-side, which is not typically the case for other graph databases.
+&lt;a href=&quot;https://github.com/v5analytics/vertexium&quot;&gt;Vertexium&lt;/a&gt; was designed on top of &lt;a href=&quot;https://accumulo.apache.org&quot;&gt;Accumulo&lt;/a&gt; with their security model in mind.  These examples only use the inmemory implementation of Vertexium and do not use Accumulo, but these are illustrative examples only.  The simple concept of tagging the data and storing the security information with it leads to a very robust and secure platform on which to develop apps, which is what I do every day at &lt;a href=&quot;http://v5analytics.com&quot;&gt;V5 Analytics&lt;/a&gt;.  If you are interested in working at &lt;a href=&quot;http://v5analytics.com&quot;&gt;V5 Analytics&lt;/a&gt;, chatting about security models, or anything else, drop me a line at ryan@v5analytics.com.&lt;/p&gt;
+</description>
+  
+  
+</item>
+
+<item>
+  <title>New Features - Saved Search and Additional Filters</title>
+  <link>https://www.visallo.com/blog/new-features-saved-search-and-additional-filters</link>
+  <description>&lt;p&gt;As Visallo’s search interface includes more and more features, recreating that query that was just right can take more time. The latest version of Visallo open source now includes the ability to save your searches.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Saved Search&quot; src=&quot;/sites/default/files/saved-search.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Property filters have also been expanded to include “has” and “does not have” filters. This allows you to search for elements that have or do not have a given property set.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Property Filters&quot; src=&quot;/sites/default/files/property-filters.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Finally, date search has been improved to support relative dates. Now in combination with the saved search feature you can create a search that is dynamic depending on when it gets executed.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;Relative Date Filters&quot; src=&quot;/sites/default/files/relative-date-filters.jpg&quot; /&gt;&lt;/p&gt;
+</description>
+  
+  
+</item>
+
+<item>
+  <title>Creating an Ontology</title>
+  <link>https://www.visallo.com/blog/creating-ontology</link>
+  <description>&lt;p&gt;Visallo requires an ontology to work. The ontology drives how searches are performed, how data is saved, and how the users interact with that data. So it’s crucial to get the ontology right before you create lots of data or tools to import data. This post is going to walk through the basics of creating an ontology using &lt;a href=&quot;http://protege.stanford.edu/&quot;&gt;Protégé&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;When Visallo starts for the first time it reads the ontology represented in OWL files. &lt;a href=&quot;http://www.wikiwand.com/en/Web_Ontology_Language&quot;&gt;OWL files&lt;/a&gt; are XML files describing the types of objects, the properties on those objects, and the relationships that objects can have with other objects. Ontologies and OWL files have a different vocabulary that most people will not be familiar with, here is a list of just a few and what they mean to Visallo.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IRI&lt;/strong&gt; - IRIs look like URIs and serve as unique identifiers for classes, properties, and relationships.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Class&lt;/strong&gt; - Similar to a class in java, classes describe an object. In Visallo every vertex or node on the graph is assigned a class via the &lt;code&gt;&lt;a href=&quot;http://visallo.org#conceptType&quot;&gt;http://visallo.org#conceptType&lt;/a&gt;&lt;/code&gt; property. Examples of classes are person, organization, document.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datatype Property&lt;/strong&gt; - Properties or attributes of a class. Datatype properties can belong to many classes but can only have one type. Examples of datatype properties are birth date, gender, amount.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Object Property&lt;/strong&gt; - Relationships or edges a class can have with another class. Object properties can have many possible source classes and destination classes. Examples of object properties are employs, parent of, sibling.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Domain&lt;/strong&gt; - For datatype properties, the domains describe which classes the property can belong to. For object proprties the domain describes the out side of the relationship. For example, if a person has a phone, the person class is the domain of the “has” object property.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Range&lt;/strong&gt; - For datatype properties, the range describes the type of the property (eg. string, integer). For object properties the range represents the in side of the relationship. Using the person has a phone example the phone class would be the range of the “has” object property.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Label&lt;/strong&gt; - This is the display value of the class, property, or relationship. The label is what is displayed on the UI.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Visallo has extended the OWL format to include some additional attributes. These attributes can help the system determine how to index the values, how the user interacts with those object, etc. For a list of these you can look at the Visallo &lt;a href=&quot;https://github.com/v5analytics/visallo/blob/master/docs/ontology.md&quot;&gt;ontology documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Now that we have the terminology out of the way, lets create a simple ontology.&lt;br /&gt;
+&lt;img src=&quot;/sites/default/files/ontology.png&quot; alt=&quot;Ontology&quot;&gt;&lt;/p&gt;
+&lt;p&gt;To get us started with our OWL file we’ll copy an existing OWL file from the Visallo project. The &lt;a href=&quot;https://github.com/v5analytics/visallo/blob/master/examples/ontology-minimal/minimal.owl&quot;&gt;minimal.owl&lt;/a&gt; file contains some classes, properties, and relationships required by Visallo. Create a new directory and move all the files from the minimal.owl’s directory then rename minimal.owl to simple.owl. The newly renamed simple.owl file has many IRIs with visallo and minimal in the name. We can change all of these to our custom IRI if you would like. Open simple.owl in an editor and replace all &lt;code&gt;&lt;a href=&quot;http://visallo.org/minimal&quot;&gt;http://visallo.org/minimal&lt;/a&gt;&lt;/code&gt; with &lt;code&gt;&lt;a href=&quot;http://yourdomain.com/simple&quot;&gt;http://yourdomain.com/simple&lt;/a&gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Now lets open simple.owl in &lt;a href=&quot;http://protege.stanford.edu/&quot;&gt;Protégé&lt;/a&gt;. To do this we first have to open Visallo’s &lt;a href=&quot;https://github.com/v5analytics/visallo/blob/master/core/core/src/main/resources/org/visallo/core/model/ontology/base.owl&quot;&gt;base.owl&lt;/a&gt; to tell Protégé about Visallo’s custom extensions to the OWL format. After that we can open our simple.owl file. When prompted to open in the same window answer yes, this will allow our simple.owl to reference the already loaded base.owl file. Protégé should now look like this.&lt;br /&gt;
+&lt;img src=&quot;/sites/default/files/protege-loaded.jpg&quot; style=&quot;max-width: 100%&quot; alt=&quot;Ontology&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Next lets add our employee and organization classes. To do this we click the entities tab. Expanding the class hierarchy we’ll see the Visallo required classes raw, audio, document, image, and video. Our employee and organization classes will both use a parent of thing. Click thing, then click the add subclass button. Type “employee” in the name field and click OK. We also need a display name, to add the display name to employee, click employee, then click the “+” next to annotations and select “rdfs:label” and type in a display name such as “Employee”. Repeat the process for “organization”.&lt;/p&gt;
+&lt;p&gt;Now lets add the “employs” relationship. To do this click the “object property hierarchy” tab in the bottom left part of the interface. This will bring of the hierarchy of relationships. Click the “owl:topObjectProperty”, then the add subproperty button &lt;img src=&quot;/sites/default/files/protege-add-subobjectproperty.jpg&quot; alt=&quot;subproperty button&quot;&gt;. Type “employs” in the name field and click OK. To hook up the “employs” relationships with our employee and organization we’ll need to add the domain and range. Click the “employs” relationship then click the “+” next to domain, find “organization” in the hierarchy and click OK. Then click the “+” next to range and do the same for “employee”.&lt;/p&gt;
+&lt;p&gt;Finally lets add some properties to our organization and employee classes. To do this click the “data property hierarchy” tab in the bottom left part of the interface. Click the “owl:topObjectProperty”, then the add subproperty button &lt;img src=&quot;/sites/default/files/protege-add-subobjectproperty.jpg&quot; alt=&quot;subproperty button&quot;&gt;. Type “name” in the name field and click OK. To attach the property to both our employee and organization click the “+” next to domain, find and add “organization”. Then repeat for “employee”. Finally we’ll want to assign a type to name. Click the “+” next to range, click the “Built in datatypes” tab and find “string” and click OK.&lt;/p&gt;
+&lt;p&gt;At this point our simple ontology is ready to try out in Visallo. We need to tell Visallo about it. While developing an ontology it is also nice to use the in memory ontology so we iterate over the changes faster. Add the following lines to the end of your visallo.properties file.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs&quot;&gt;repository.ontology=org&lt;span class=&quot;hljs-class&quot;&gt;.visallo&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.vertexium&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.model&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.ontology&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.InMemoryOntologyRepository&lt;/span&gt;
+repository&lt;span class=&quot;hljs-class&quot;&gt;.ontology&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.owl&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.simple&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.iri&lt;/span&gt;=http:&lt;span class=&quot;hljs-comment&quot;&gt;//yourdomain.com/simple&lt;/span&gt;
+repository&lt;span class=&quot;hljs-class&quot;&gt;.ontology&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.owl&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.simple&lt;/span&gt;&lt;span class=&quot;hljs-class&quot;&gt;.file&lt;/span&gt;=/home/jferner/dev/ontology-simple/simple.owl&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now when you start Visallo and create an entity you should see your new employee and organization classes.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/sites/default/files/visallo-with-simple-owl.jpg&quot; alt=&quot;Visallo with simple.owl loaded&quot;&gt;&lt;/p&gt;
+
+</description>
+  
+  
+</item>
+
+<item>
+  <title>Java REST API Wrapper Introduction</title>
+  <link>https://www.visallo.com/blog/java-rest-api-wrapper-introduction</link>
+  <description>&lt;p&gt;The Visallo web interface was written as a single page application, as a side effect of this all interactions with the web server are performed using a REST API. You can view the code that backs the API &lt;a href=&quot;https://github.com/v5analytics/visallo/blob/master/web/web-base/src/main/java/org/visallo/web/Router.java&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Visallo web application plugins can also extend or override the API as seen in the dev tools &lt;a href=&quot;https://github.com/v5analytics/visallo/blob/master/web/plugins/dev-tools/src/main/java/org/visallo/web/devTools/DevToolsWebAppPlugin.java&quot;&gt;here&lt;/a&gt;, but we won’t cover that in this post. In this introduction I want to focus on using the Java REST API wrapper objects to interact with Visallo.&lt;/p&gt;
+&lt;p&gt;The Java REST API wrappers are partially generated using &lt;a href=&quot;http://swagger.io/&quot;&gt;Swagger&lt;/a&gt; with an extra layer of convenience layered on top. To use them you can add the following to your Maven project:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs xml&quot;&gt;&lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;dependencies&lt;/span&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&gt;&lt;/span&gt;visallo-client-api&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;artifactId&lt;/span&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&gt;&lt;/span&gt;org.visallo&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;groupId&lt;/span&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&gt;&lt;/span&gt;1.1-SNAPSHOT&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;version&lt;/span&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;dependency&lt;/span&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;dependencies&lt;/span&gt;&gt;&lt;/span&gt;
+
+&lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;repositories&lt;/span&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;repository&lt;/span&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;id&lt;/span&gt;&gt;&lt;/span&gt;v5analytics&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;id&lt;/span&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;url&lt;/span&gt;&gt;&lt;/span&gt;https://mvn.v5analytics.com/content/groups/org.visallo&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;url&lt;/span&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;repository&lt;/span&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;repository&lt;/span&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;id&lt;/span&gt;&gt;&lt;/span&gt;v5analytics-snapshots&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;id&lt;/span&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;snapshots&lt;/span&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;enabled&lt;/span&gt;&gt;&lt;/span&gt;true&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;enabled&lt;/span&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;updatePolicy&lt;/span&gt;&gt;&lt;/span&gt;interval:60&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;updatePolicy&lt;/span&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;snapshots&lt;/span&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;url&lt;/span&gt;&gt;&lt;/span&gt;https://mvn.v5analytics.com/content/groups/org.visallo-snapshots&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;url&lt;/span&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;repository&lt;/span&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;repository&lt;/span&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;id&lt;/span&gt;&gt;&lt;/span&gt;v5analytics-public&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;id&lt;/span&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;url&lt;/span&gt;&gt;&lt;/span&gt;https://mvn.v5analytics.com/content/groups/public&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;url&lt;/span&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;repository&lt;/span&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;repository&lt;/span&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;id&lt;/span&gt;&gt;&lt;/span&gt;v5analytics-snapshots-public&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;id&lt;/span&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;snapshots&lt;/span&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;enabled&lt;/span&gt;&gt;&lt;/span&gt;true&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;enabled&lt;/span&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;updatePolicy&lt;/span&gt;&gt;&lt;/span&gt;interval:60&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;updatePolicy&lt;/span&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;snapshots&lt;/span&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;hljs-tag&quot;&gt;&lt;&lt;span class=&quot;hljs-title&quot;&gt;url&lt;/span&gt;&gt;&lt;/span&gt;https://mvn.v5analytics.com/content/groups/public-snapshots&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;url&lt;/span&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;repository&lt;/span&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;hljs-tag&quot;&gt;&lt;/&lt;span class=&quot;hljs-title&quot;&gt;repositories&lt;/span&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Similar to how the web interface works we’ll need to login and get a workspace. We can do this using one&lt;br /&gt;
+of the authentication providers. In this case we’ll be using the user name only authentication provider&lt;br /&gt;
+for testing. The client API has a wrapper for this type of authentication:&lt;br /&gt;
+&lt;code&gt;org.visallo.web.clientapi.UserNameOnlyVisalloApi&lt;/code&gt;. To create one we’ll need a base URL and a user name.&lt;br /&gt;
+The last parameter to the &lt;code&gt;UserNameOnlyVisalloApi&lt;/code&gt; constructor will enable SSL certificate checking, and&lt;br /&gt;
+since we’ll be running locally we’ll ignore the certificate errors by passing in &lt;code&gt;true&lt;/code&gt;. We’ll also call&lt;br /&gt;
+the login method and get a handle to the user’s workspace.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;UserNameOnlyVisalloApi visalloApi = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; UserNameOnlyVisalloApi(&lt;span class=&quot;hljs-string&quot;&gt;&quot;https://localhost:8889/&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-string&quot;&gt;&quot;testuser&quot;&lt;/span&gt;, &lt;span class=&quot;hljs-keyword&quot;&gt;true&lt;/span&gt;);
+ClientApiWorkspace workspace = visalloApi.loginAndGetCurrentWorkspace();&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The Visallo API object (in this case the &lt;code&gt;UserNameOnlyVisalloApi&lt;/code&gt; object which extends&lt;br /&gt;
+&lt;code&gt;org.visallo.web.clientapi.VisalloApi&lt;/code&gt;) is divided into categories similar to the REST API’s. The&lt;br /&gt;
+categories are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;User&lt;/strong&gt; - Get current user information, other users in the system, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workspace&lt;/strong&gt; - Get a list of workspaces, get vertices and edges on a workspace, update the workspace with new vertices, publish and undo sandbox changes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vertex&lt;/strong&gt; - Read, update, delete, and search vertices.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Edge&lt;/strong&gt; - Read, update, delete edges.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ontology&lt;/strong&gt; - Read the ontology.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Long running process&lt;/strong&gt; - Find or wait for a long running process created from other API calls.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Admin&lt;/strong&gt; - Upload an ontology.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Lets start by adding a new vertex with some properties to our workspace. To create a vertex we need to&lt;br /&gt;
+create some properties, in this case we’ll create a first name and last name. We’ll also need to tell&lt;br /&gt;
+Visallo what type of vertex we are creating, in this case we’ll be creating a vertex representing a&lt;br /&gt;
+person, this is done by setting the concept type to &lt;code&gt;&lt;a href=&quot;http://visallo.org/dev#person&quot;&gt;http://visallo.org/dev#person&lt;/a&gt;&lt;/code&gt;. We also need to&lt;br /&gt;
+indicate the visibility, in our example we’ll use an empty string denoting that this vertex will be&lt;br /&gt;
+visible to all users. Passing a &lt;code&gt;null&lt;/code&gt; vertex id will cause the system to generate one for us.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;&lt;span class=&quot;hljs-comment&quot;&gt;// first name property&lt;/span&gt;
+ClientApiAddElementProperties.Property firstNameProperty = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; ClientApiAddElementProperties.Property()
+        .setPropertyKey(&lt;span class=&quot;hljs-string&quot;&gt;&quot;clientApi&quot;&lt;/span&gt;)
+        .setPropertyName(&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://visallo.org/dev#firstName&quot;&lt;/span&gt;)
+        .setValue(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Joe&quot;&lt;/span&gt;)
+        .setVisibilitySource(&lt;span class=&quot;hljs-string&quot;&gt;&quot;&quot;&lt;/span&gt;);
+
+&lt;span class=&quot;hljs-comment&quot;&gt;// last name property&lt;/span&gt;
+ClientApiAddElementProperties.Property lastNameProperty = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; ClientApiAddElementProperties.Property()
+        .setPropertyKey(&lt;span class=&quot;hljs-string&quot;&gt;&quot;clientApi&quot;&lt;/span&gt;)
+        .setPropertyName(&lt;span class=&quot;hljs-string&quot;&gt;&quot;http://visallo.org/dev#lastName&quot;&lt;/span&gt;)
+        .setValue(&lt;span class=&quot;hljs-string&quot;&gt;&quot;Ferner&quot;&lt;/span&gt;)
+        .setVisibilitySource(&lt;span class=&quot;hljs-string&quot;&gt;&quot;&quot;&lt;/span&gt;);
+
+&lt;span class=&quot;hljs-comment&quot;&gt;// create the vertex&lt;/span&gt;
+String conceptType = &lt;span class=&quot;hljs-string&quot;&gt;&quot;http://visallo.org/dev#person&quot;&lt;/span&gt;;
+String visibilitySource = &lt;span class=&quot;hljs-string&quot;&gt;&quot;&quot;&lt;/span&gt;;
+String justificationText = &lt;span class=&quot;hljs-string&quot;&gt;&quot;Vertex created using Client API wrapper&quot;&lt;/span&gt;;
+String vertexId = &lt;span class=&quot;hljs-keyword&quot;&gt;null&lt;/span&gt;;
+ClientApiAddElementProperties properties = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; ClientApiAddElementProperties(
+        firstNameProperty,
+        lastNameProperty
+);
+ClientApiElement vertex = visalloApi.getVertexApi().create(
+        conceptType,
+        visibilitySource,
+        justificationText,
+        vertexId,
+        properties
+);&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you login to the website after running the above code you&#39;ll notice the vertex does not appear on your&lt;br /&gt;
+workspace. But if you open the diff panel in the lower left you&#39;ll see a vertex and two properties have&lt;br /&gt;
+been created. If you would like to add the vertex to your workspace you&#39;ll need to update the workspace.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;ClientApiWorkspaceUpdateData workspaceUpdate = &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; ClientApiWorkspaceUpdateData();
+workspaceUpdate.getEntityUpdates().add(
+    &lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; ClientApiWorkspaceUpdateData.EntityUpdate()
+        .setVertexId(vertex.getId())
+        .setGraphPosition(&lt;span class=&quot;hljs-keyword&quot;&gt;new&lt;/span&gt; GraphPosition(&lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;hljs-number&quot;&gt;0&lt;/span&gt;))
+);
+visalloApi.getWorkspaceApi().update(workspaceUpdate);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After refreshing your web browser you should now see a single vertex on your workspace. Lets publish the&lt;br /&gt;
+vertex so all users can see our new vertex. To do this we’ll query for the list of diff items that need&lt;br /&gt;
+to be published, then we’ll publish all of them.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;List&lt;ClientApiWorkspaceDiff.Item&gt; diffItems = visalloApi.getWorkspaceApi().getDiff().getDiffs();
+visalloApi.getWorkspaceApi().publishAll(diffItems);&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finally we need to logout to free up the session and any resources.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;hljs java&quot;&gt;visalloApi.logout();&lt;/code&gt;&lt;/pre&gt;
+
+</description>
+  
+  
+</item>
+
+<item>
+  <title></title>
+  <link>https://www.visallo.com/blog/template</link>
+  <description>&lt;p&gt;Markdown Content Here&lt;/p&gt;
+</description>
+  
+  
+</item>
+
+</channel>
+</rss>
